@@ -1,4 +1,4 @@
-(footprint "Untitled"
+(footprint "uBlox-NEO-6M"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -15,7 +15,7 @@
 			)
 		)
 	)
-	(property "Value" "Untitled"
+	(property "Value" "uBlox-NEO-6M"
 		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -100,36 +100,58 @@
 		)
 	)
 	(pad "1" thru_hole circle
-		(at -7.62 -15.24)
-		(size 2.8575 2.8575)
+		(at -3.81 -15.24)
+		(size 1.6 1.6)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "173b16ab-7009-4d44-b9fd-51759d5a6299")
 	)
 	(pad "2" thru_hole circle
-		(at -2.54 -15.24)
-		(size 2.8575 2.8575)
+		(at -1.27 -15.24)
+		(size 1.5 1.5)
 		(drill 1)
 		(layers "*.Cu" "F.Mask" "F.Paste")
 		(remove_unused_layers no)
 		(uuid "f4fda64b-02a6-42a5-9806-4776a94fb23a")
 	)
 	(pad "3" thru_hole circle
-		(at 2.54 -15.24)
-		(size 2.8575 2.8575)
+		(at 1.27 -15.24)
+		(size 1.6 1.6)
 		(drill 1)
 		(layers "*.Cu" "F.Mask" "F.Paste")
 		(remove_unused_layers no)
 		(uuid "3a989738-2d85-42e2-844d-f8266a1b4d62")
 	)
 	(pad "4" thru_hole circle
-		(at 7.62 -15.24)
-		(size 2.8575 2.8575)
+		(at 3.81 -15.24)
+		(size 1.6 1.6)
 		(drill 1)
 		(layers "*.Cu" "F.Mask" "F.Paste")
 		(remove_unused_layers no)
 		(uuid "96480322-2c5c-43ee-9b60-23f051bc141a")
 	)
 	(embedded_fonts no)
+	(model "/home/josejacomeb/Documents/tinypico-cycling-tracker/footprints/uBlox-Neo6M/GY-NEO6MV2-withAnt v2.step"
+		(offset
+			(xyz -22.5 -3 3)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -90)
+		)
+	)
+	(model "/home/josejacomeb/Documents/tinypico-cycling-tracker/footprints/uBlox-Neo6M/4 pin header male point 100 pitch.step"
+		(offset
+			(xyz 3.5 14.5 1)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 -0 -90)
+		)
+	)
 )

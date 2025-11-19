@@ -38,3 +38,9 @@ fp-info-cache
 
 # Local project settings
 *.kicad_prl
+
+# Step files
+*.step
+*.png
+*.zip 
+*.f3d 
