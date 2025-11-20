@@ -14,8 +14,8 @@
 				)
 			)
 		)
-		(property "Value" ""
-			(at 0 0 0)
+		(property "Value" "GPS6MV2"
+			(at -0.254 6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
