@@ -132,9 +132,9 @@
 		(uuid "96480322-2c5c-43ee-9b60-23f051bc141a")
 	)
 	(embedded_fonts no)
-	(model "/home/josejacomeb/Documents/tinypico-cycling-tracker/footprints/uBlox-Neo6M/GY-NEO6MV2-withAnt v2.step"
+	(model "/home/josejacomeb/Documents/tinypico-cycling-tracker/Schematics/kicad-libraries/uBlox-Neo6M/GY-NEO6MV2-withAnt v2.step"
 		(offset
-			(xyz -22.5 -3 3)
+			(xyz -22.5 -3 3.5)
 		)
 		(scale
 			(xyz 1 1 1)
@@ -143,15 +143,15 @@
 			(xyz -90 -0 -90)
 		)
 	)
-	(model "/home/josejacomeb/Documents/tinypico-cycling-tracker/footprints/uBlox-Neo6M/4 pin header male point 100 pitch.step"
+	(model "${KICAD9_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x04_P2.54mm_Vertical.step"
 		(offset
-			(xyz 3.5 14.5 1)
+			(xyz 3.65 14.5 2.5)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 90 -0 -90)
+			(xyz -0 180 90)
 		)
 	)
 )
